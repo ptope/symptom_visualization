@@ -1,0 +1,36 @@
+project_pice/
+├── output/
+├── README.md
+├── STRUCTURE.txt
+├── requirements.txt
+├── setup.py
+├── src/
+│   ├── __init__.py
+│   ├── analysis/
+│   │   ├── __init__.py
+│   │   ├── 00_gst_pytrends.py
+│   │   ├── 0X_gst_selenium.py
+│   │   ├── 01_symptom_pca.py
+│   │   ├── 02_dfs.py
+│   │   └── 03_visualization.py
+│   └── data_from_gst_website/
+│       ├── __init__.py
+│       ├── df_20_21.csv
+│       ├── df_21_22.csv
+│       ├── df_22_23.csv
+│       ├── df_23_24.csv
+│       ├── grp1_20_21.csv
+│       ├── grp1_21_22.csv
+│       ├── grp1_22_23.csv
+│       ├── grp1_23_24.csv
+│       ├── grp2_20_21.csv
+│       ├── grp2_21_22.csv
+│       ├── grp2_22_23.csv
+│       └── grp2_23_24.csv
+└── project_pice.egg-info/
+    ├── __init__.py
+    ├── dependency_links.txt
+    ├── PKG-INFO
+    ├── requires.txt
+    ├── SOURCES.txt
+    └── top_level.txt
